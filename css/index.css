@@ -1,0 +1,278 @@
+.lunbo {
+    width: 50%;
+    height: 368px;
+    margin: 0;
+    float: left;
+}
+
+.lunbo .swiper-slide p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: url(../img/lunbo/text_bg.png) repeat;
+    font-size: 16px;
+    line-height: 50px;
+    color: #eee;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 130px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lunbo .swiper-slide p:hover {
+    color: #007aff;
+}
+
+.lunbo>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+
+    right: -40px;
+    left: unset;
+    bottom: 22px;
+}
+
+.lunbo .swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+}
+
+.lunbo .swiper-pagination-bullet-active {
+    background-color: #007aff;
+}
+
+.news {
+    float: left;
+    width: 50%;
+}
+
+.news .headline h4 {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 2px 16px;
+    /* height: 58px; */
+}
+.tab-head{
+	padding: 0 15px;
+    margin: 0;
+    background: url(../img/lunbo/newsTabs_bg.jpg) repeat-x;
+    border-bottom: 1px solid #ccc;
+    line-height: 47px;
+    height: 50px
+}
+.news .tab-head {
+    border-top: 1px dashed #acacac;
+}
+
+.tab .tab-head li {
+    list-style: none;
+    float: left;
+
+    text-align: center;
+    width: 124px;
+}
+
+.tab .tab-head li:hover,
+.tab .tab-head li.active {
+    line-height: 40px;
+    /*margin-top: 6px;*/
+    background: #fff;
+    border: 1px solid #ccc;
+    border-bottom: none;
+}
+
+.tab .tab-head li a {
+    font-size: 18px;
+    color: #25659c
+}
+
+.tab .tab-content .list-group {
+    margin: 0
+}
+
+.tab .tab-content .list-group-item-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ztbd {
+    margin-top: 15px;
+}
+
+.ztbd img {
+    width: 100%;
+}
+.zhyw{
+	margin-top: 15px; 
+}
+.zhyw .title{
+	float: left;
+    line-height: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.zhyw .tab-head{
+	border-top: 1px solid #3d79ac;
+}
+.zhyw .item{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.zhyw .item dl{
+	flex: 1;
+	text-align: center;
+	margin-top:10px;
+	cursor: pointer; 
+} 
+.zhyw .item dd{
+	margin-top:8px; 
+	font-weight: bold;
+}
+
+
+.xxgk{
+	
+}
+.xxgk .tab-head{
+	border-top: 2px solid #3d79ac;
+	font-weight: bold;
+	font-size: 18px;
+}
+.xxgk ul{
+	margin: 15px 0 5px;
+	padding:0;
+}
+.xxgk ul li{
+	list-style: none;
+    background-color:#e8eff5;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    text-indent: 64px;
+	background-repeat: no-repeat;
+	background-position: 28px center;
+}
+.xxgk01{
+	background-image: url(../img/xxgk/1.png);
+}
+.xxgk02{
+	background-image: url(../img/xxgk/2.png);
+}
+.xxgk03{
+	background-image: url(../img/xxgk/3.png);
+}
+.xxgk04{
+	background-image: url(../img/xxgk/4.png);
+}
+.xxgk05{
+	background-image: url(../img/xxgk/5.png);
+}
+
+.xxgk ul li a{
+	color: #535353;
+}
+
+.czt{
+	
+}
+.czt .tab-head{
+	border-top: 2px solid #3d79ac;
+	font-weight: bold;
+	font-size: 18px;
+}
+.czt ul{
+	margin: 15px 0 5px;
+	padding:0;
+}
+.czt ul li{
+    background-color: #e8eff5;
+    border-radius: 10px;
+    line-height: 50px;
+    margin-bottom: 5px;
+    background-repeat: no-repeat;
+    background-position: 28px center;
+    text-align: center;
+    font-size: 16px;
+}
+.czt ul li a{
+	color: #535353;
+}
+
+
+
+.zxdt .tab-head{
+	border-top: 2px solid #3d79ac
+}
+
+
+.spkx{
+	margin-top: 15px;
+}
+.spkx .tab-head{
+	border-top: 2px solid #3d79ac;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.spkx .row p,.spkx .row img{
+	max-height: 240px;
+}
+.spkx .row p{
+	font: normal 15px/30px Microsoft Yahei;
+    color: #222;
+    text-indent: 2em;
+    
+    overflow: hidden;
+}
+
+
+.dlykt{
+	margin-top: 15px;
+}
+.dlykt .tab-head{
+	border-top: 2px solid #3d79ac;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.dlykt .dlykt-container{
+	width: 100%;
+}
+.dlykt .dlykt-container .swiper-slide{
+	cursor: pointer;
+}
+.dlykt .dlykt-container img{
+	width: 100%;
+	height: 100%;
+}
+.dlykt .dlykt-container .swiper-slide p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: url(../img/lunbo/text_bg.png) repeat;
+    font-size: 14px;
+    line-height: 30px;
+    color: #eee;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dlykt .dlykt-container .swiper-slide p:hover {
+    color: #007aff;
+}
